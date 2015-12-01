@@ -26,7 +26,7 @@ module top_module(clk, reset, step_clk, step_mem, status, dump_mem, an, seg);
 	
 	output [7:0] status;
 	output [7:0] an;
-	output [7:0] seg;
+	output [6:0] seg;
 	
 	wire [15:0] Address, mem_counter, D_out, D_in;
 	wire [ 7:0] madr;
@@ -64,20 +64,20 @@ module top_module(clk, reset, step_clk, step_mem, status, dump_mem, an, seg);
 	
 	//--		2x1 mux that will decide what the address will 
 	//--		1 = address from memdump, 0 = address from risc
-	assign 				  madr = (dump_mem) ? mem_counter : Address;							  
+	assign 				  madr = (dump_mem) ? mem_counter[7:0] : Address[7:0];							  
 	
 
-	ram				mem256x16(
+	ram_md			mem256x16(
 									 .clk(clk),
 									 .we(mw_en),
 									 .addr(madr),
 									 .D_in(D_out),
 									 .D_out(D_in));
 									 
-	display_controller  dc( 
-								  .clk(clk), 
-								  .reset(reset), 
-								  .seg_in({8'h00,m_adr,D_in}), 
-								  .A(an), 
-								  .seg_out(seg));
+	display_controller   dc( 
+								   .clk(clk), 
+								   .reset(reset), 
+								   .seg_in({{8{1'b0}},madr,D_in}), 
+								   .A(an), 
+								   .seg_out(seg));
 endmodule

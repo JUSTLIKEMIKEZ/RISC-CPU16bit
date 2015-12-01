@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 module Mem_DumpCounter(clk, reset, mem_counter);
 	
-	input clk, reset;
+	input 				clk, reset;
 	
 	output reg [15:0] mem_counter;
 	
@@ -29,6 +29,6 @@ module Mem_DumpCounter(clk, reset, mem_counter);
 		if(reset == 1'b1)
 			mem_counter = 16'h0000;
 		else
-			mem_counter = mem_counter + 1;
+			mem_counter = mem_counter + 16'b1;
 
 endmodule

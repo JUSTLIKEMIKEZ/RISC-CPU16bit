@@ -63,7 +63,7 @@ module CPU_EU( //clk, reset declaration
 	
 	//internal wire declaration
 	wire [15:0]  Reg_Out, Alu_Out, pc_out, pc_outmux,
-					 pc_in, adder_in;
+					 pc_in, addr_in;
 
 	
 	

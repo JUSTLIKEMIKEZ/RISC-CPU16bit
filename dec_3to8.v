@@ -19,9 +19,9 @@
 //
 //////////////////////////////////////////////////////////////////////////////////
 module dec_3to8(in, en, y);
-	input reg [2:0] in;
+	input [2:0] in;
 	input en;
-	output [7:0] y;
+	output reg [7:0] y;
 
 	always @ * begin
 		case(in)

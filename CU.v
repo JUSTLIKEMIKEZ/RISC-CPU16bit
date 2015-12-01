@@ -28,9 +28,9 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 			 status);								//LED outputs
 //*****************************************************************
 
-	input		     	  clk, reset;					//clk and reset
-	input reg [15:0] IR;								//instruction register input
-	input 			  N, Z, C;						//datapath status inputs
+	input	  	    clk, reset;					//clk and reset
+	input [15:0] IR;								//instruction register input
+	input 		 N, Z, C;						//datapath status inputs
 	
 	
 	/**************************************
@@ -52,15 +52,18 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 	reg [4:0] state;									//preset state register
 	reg [4:0] nextstate;								//next state register
 	reg 		 ps_N, ps_Z, ps_C;					//LED status/state outputs
-	reg 		 ns_N, ns_Z, ns_C;					//next state flags register
+	reg		 ns_N, ns_Z, ns_C;					//next state flags register
 	
-	prameter RESET = 0, FETCH = 1, DECODE = 2,
-				ADD = 3, SUB = 4, CMP = 5, MOV = 6,
-				INC = 7, DEC = 8, SHL = 9, SHR = 10,
-				LD = 11, STO = 12, LDI = 13, 
-				JE = 14, JNE = 15, JC = 16, JMP = 17,
-				HALT = 18,
-				ILLEGAL_OP = 31;
+	
+	//assign    {ns_N, ns_Z, ns_C} = {N, Z, C};
+	
+	parameter RESET = 0, FETCH = 1, DECODE = 2,
+				 ADD = 3, SUB = 4, CMP = 5, MOV = 6,
+				 INC = 7, DEC = 8, SHL = 9, SHR = 10,
+				 LD = 11, STO = 12, LDI = 13, 
+				 JE = 14, JNE = 15, JC = 16, JMP = 17,
+				 HALT = 18,
+				 ILLEGAL_OP = 31;
 	
 	/**************************************
 	*		301 Control Unit Sequencer	     *
@@ -78,8 +81,10 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 	always @ (posedge clk, posedge reset)
 		if(reset == 1'b1)
 			{ps_N, ps_Z, ps_C} = 3'b0;
-		else
+		else begin
+			{ns_N, ns_Z, ns_C} = {N, Z, C};
 			{ps_N, ps_Z, ps_C} = {ns_N, ns_Z, ns_C};
+		end
 	
 	
 	//combinational logic section for both next state logic
@@ -137,89 +142,157 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 		end
 		
 		ADD: 	begin
-			
+			W_Adr = IR[8:6];	R_Adr = IR[5:3];	S_Adr = IR[2:0];
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0100;
+			status = {ps_N, ps_Z, ps_C, 5'b00000};
 			nextstate = FETCH;
 		end
 		
 		
 		SUB:	begin
-			
+			W_Adr = IR[8:6];	R_Adr = IR[5:3];	S_Adr = IR[2:0];
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0101;
+			status = {ps_N, ps_Z, ps_C, 5'b00001};
 			nextstate = FETCH;
 		end
 		
 		CMP:	begin
-			
+			W_Adr = 3'b000;	R_Adr = IR[5:3];	S_Adr = IR[2:0];
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b0; 		alu_op = 4'b0101;
+			status = {ps_N, ps_Z, ps_C, 5'b00010};
 			nextstate = FETCH;
 		end
 		
 		MOV:	begin
-			
+			W_Adr = IR[8:6];	R_Adr = IR[5:3];	S_Adr = IR[2:0];
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0000;
+			status = {ps_N, ps_Z, ps_C, 5'b00011};
 			nextstate = FETCH;
 		end
 		
 		SHL: 	begin
-			
+			W_Adr = IR[8:6];	R_Adr = IR[5:3];	S_Adr = IR[2:0];
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0111;
+			status = {ps_N, ps_Z, ps_C, 5'b00100};
 			nextstate = FETCH;
 		end
 		
 		SHR: 	begin
-			
+			W_Adr = IR[8:6];	R_Adr = IR[5:3];	S_Adr = IR[2:0];
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0110;
+			status = {ps_N, ps_Z, ps_C, 5'b00101};
 			nextstate = FETCH;
 		end
 		
 		INC: 	begin
-			
+			W_Adr = IR[8:6];	R_Adr = IR[5:3];	S_Adr = IR[2:0];
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0010;
+			status = {ps_N, ps_Z, ps_C, 5'b00110};
 			nextstate = FETCH;
 		end
 		
 		DEC: 	begin
-			
+			W_Adr = IR[8:6];	R_Adr = IR[5:3];	S_Adr = IR[2:0];
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0011;
+			status = {ps_N, ps_Z, ps_C, 5'b00111};
 			nextstate = FETCH;
 		end
 		
 		LD: 	begin
-			
+			W_Adr = IR[8:6];	R_Adr = IR[2:0];	S_Adr = 3'b000;
+			adr_sel = 1'b1;	s_sel = 1'b1;
+			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0000;
+			status = {ps_N, ps_Z, ps_C, 5'b01000};
 			nextstate = FETCH;
 		end
 		
 		STO: 	begin
-			
+			W_Adr = IR[8:6];	R_Adr = IR[8:6];	S_Adr = IR[2:0];
+			adr_sel = 1'b1;	s_sel = 1'b0;
+			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b1;		rw_en = 1'b0; 		alu_op = 4'b0000;
+			status = {ps_N, ps_Z, ps_C, 5'b01001};
 			nextstate = FETCH;
 		end
 		
 		LDI: 	begin
-			
+			W_Adr = IR[8:6];	R_Adr = IR[2:0];	S_Adr = 3'b000;
+			adr_sel = 1'b0;	s_sel = 1'b1;
+			pc_ld = 1'b0;		pc_inc = 1'b1;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0000;
+			status = {ps_N, ps_Z, ps_C, 5'b01010};
 			nextstate = FETCH;
 		end
-		
-		HALT: 	begin
-			
-			nextstate = FETCH;
-		end
-		
+				
 		JE: 	begin
-			
+			W_Adr = 3'b000;	R_Adr = 3'b000;	S_Adr = 3'b000;
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = ps_Z;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b0; 		alu_op = 4'b0000;
+			status = {ps_N, ps_Z, ps_C, 5'b01100};
 			nextstate = FETCH;
 		end
 		
 		JNE: 	begin
-			
+			W_Adr = 3'b000;	R_Adr = 3'b000;	S_Adr = 3'b000;
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = ~ps_Z;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b0; 		alu_op = 4'b0000;
+			status = {ps_N, ps_Z, ps_C, 5'b01101};
 			nextstate = FETCH;
 		end
 		
 		JC: 	begin
-			
+			W_Adr = 3'b000;	R_Adr = 3'b000;	S_Adr = 3'b000;
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = ps_C;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b0; 		alu_op = 4'b0000;
+			status = {ps_N, ps_Z, ps_C, 5'b01110};
 			nextstate = FETCH;
 		end
 		
 		JMP: 	begin
-			
+			W_Adr = 3'b000;	R_Adr = 3'b000;	S_Adr = 3'b000;
+			adr_sel = 1'b0;	s_sel = 1'b0;
+			pc_ld = 1'b1;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b0; 		alu_op = 4'b0000;
+			status = {ps_N, ps_Z, ps_C, 5'b01111};
 			nextstate = FETCH;
 		end
 		
+		HALT: 	begin
+			W_Adr = 3'b000; 	R_Adr = 3'b000; 	S_Adr = 3'b000;
+			adr_sel = 1'b0; 	s_sel = 1'b0; 
+			pc_ld = 1'b0; 		pc_inc = 1'b0; 	pc_sel = 1'b0; 	ir_ld = 1'b0;
+			mw_en = 1'b0; 		rw_en = 1'b0; 		alu_op = 4'b0000;
+			status = {ps_N, ps_Z, ps_C, 5'b01011};
+			nextstate = HALT;
+		end
+
 		ILLEGAL_OP:	 begin
-		
-			nextstate = FETCH;
+			W_Adr = 3'b000; 	R_Adr = 3'b000; 	S_Adr = 3'b000;
+			adr_sel = 1'b0; 	s_sel = 1'b0; 
+			pc_ld = 1'b0; 		pc_inc = 1'b0; 	pc_sel = 1'b0; 	ir_ld = 1'b0;
+			mw_en = 1'b0; 		rw_en = 1'b0; 		alu_op = 4'b0000;
+			status = 8'b1111_0000;
+			nextstate = ILLEGAL_OP;
 		end 
 	endcase
 	

@@ -26,7 +26,7 @@ module RISC_Processor(clk, reset, Address, D_out, D_in, mw_en, status );
 	
 	
 	//output declaration
-	output [15:0]  D_Out;
+	output [15:0]  D_out;
 	output [15:0]  Address;
 	output 		   mw_en;
 	output [ 7:0]  status;
@@ -47,7 +47,7 @@ module RISC_Processor(clk, reset, Address, D_out, D_in, mw_en, status );
 									//Integer Datapath
 									.W_En(rw_en),
 									.W_Adr(W_Adr), .S_Adr(S_Adr), .R_Adr(R_Adr),
-									.D_Out(D_Out), .C(C), 
+									.D_Out(D_out), .C(C), 
 									.N(N), .Z(Z), .sel(sel),
 									.alu_op(alu_op),
 					
