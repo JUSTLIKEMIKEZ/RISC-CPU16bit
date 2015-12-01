@@ -32,7 +32,10 @@ module CPU_EU( //clk, reset declaration
 					ld_en, pc_inc, pc_sel, 
 					
 					//IR
-					ir_en, D_in, IR_Out);
+					ir_en, D_in, IR_Out
+					
+					//
+					/*Reg_Out*/);
 
 
 	//clk and reset decleration
@@ -45,7 +48,7 @@ module CPU_EU( //clk, reset declaration
 	input 		 sel;
 	input	[3:0]  alu_op;
 	
-	output [15:0]  D_Out;
+	output [15:0]  D_Out; //Reg_Out;
 	output 		  C, N, Z;
 	
 	//PC IO declaration

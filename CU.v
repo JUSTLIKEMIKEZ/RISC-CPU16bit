@@ -53,7 +53,7 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 	reg [4:0] nextstate;								//next state register
 	reg 		 ps_N, ps_Z, ps_C;					//LED status/state outputs
 	reg		 ns_N, ns_Z, ns_C;					//next state flags register
-	
+
 	
 	//assign    {ns_N, ns_Z, ns_C} = {N, Z, C};
 	
@@ -77,13 +77,15 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 			state = nextstate;
 	
 	
+	//assign 	{ns_N, ns_Z, ns_C} = {N,Z,C};
 	//synchronous flags register assignment
 	always @ (posedge clk, posedge reset)
 		if(reset == 1'b1)
 			{ps_N, ps_Z, ps_C} = 3'b0;
 		else begin
-			{ns_N, ns_Z, ns_C} = {N, Z, C};
+			//{ps_N, ps_Z, ps_C} = {N, Z, C};
 			{ps_N, ps_Z, ps_C} = {ns_N, ns_Z, ns_C};
+			//{ps_N, ps_Z, ps_C} = {N, Z, C};
 		end
 	
 	
@@ -146,6 +148,7 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 			adr_sel = 1'b0;	s_sel = 1'b0;
 			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
 			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0100;
+			{ns_N, ns_Z, ns_C} = {N, Z, C};
 			status = {ps_N, ps_Z, ps_C, 5'b00000};
 			nextstate = FETCH;
 		end
@@ -156,6 +159,7 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 			adr_sel = 1'b0;	s_sel = 1'b0;
 			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
 			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0101;
+			{ns_N, ns_Z, ns_C} = {N, Z, C};
 			status = {ps_N, ps_Z, ps_C, 5'b00001};
 			nextstate = FETCH;
 		end
@@ -165,6 +169,7 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 			adr_sel = 1'b0;	s_sel = 1'b0;
 			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
 			mw_en = 1'b0;		rw_en = 1'b0; 		alu_op = 4'b0101;
+			{ns_N, ns_Z, ns_C} = {N, Z, C};
 			status = {ps_N, ps_Z, ps_C, 5'b00010};
 			nextstate = FETCH;
 		end
@@ -183,6 +188,7 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 			adr_sel = 1'b0;	s_sel = 1'b0;
 			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
 			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0111;
+			{ns_N, ns_Z, ns_C} = {N, Z, C};
 			status = {ps_N, ps_Z, ps_C, 5'b00100};
 			nextstate = FETCH;
 		end
@@ -192,30 +198,33 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 			adr_sel = 1'b0;	s_sel = 1'b0;
 			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
 			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0110;
+			{ns_N, ns_Z, ns_C} = {N, Z, C};
 			status = {ps_N, ps_Z, ps_C, 5'b00101};
 			nextstate = FETCH;
 		end
 		
 		INC: 	begin
-			W_Adr = IR[8:6];	R_Adr = IR[5:3];	S_Adr = IR[2:0];
+			W_Adr = IR[8:6];	R_Adr = 3'b000;	S_Adr = IR[2:0];
 			adr_sel = 1'b0;	s_sel = 1'b0;
 			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
 			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0010;
+			{ns_N, ns_Z, ns_C} = {N, Z, C};
 			status = {ps_N, ps_Z, ps_C, 5'b00110};
 			nextstate = FETCH;
 		end
 		
 		DEC: 	begin
-			W_Adr = IR[8:6];	R_Adr = IR[5:3];	S_Adr = IR[2:0];
+			W_Adr = IR[8:6];	R_Adr = 3'b00;	S_Adr = IR[2:0];
 			adr_sel = 1'b0;	s_sel = 1'b0;
 			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
 			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0011;
+			{ns_N, ns_Z, ns_C} = {N, Z, C};
 			status = {ps_N, ps_Z, ps_C, 5'b00111};
 			nextstate = FETCH;
 		end
 		
 		LD: 	begin
-			W_Adr = IR[8:6];	R_Adr = IR[2:0];	S_Adr = 3'b000;
+			W_Adr = IR[8:6];	R_Adr = IR[8:6];	S_Adr = 3'b000;
 			adr_sel = 1'b1;	s_sel = 1'b1;
 			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
 			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0000;
@@ -269,10 +278,10 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 		end
 		
 		JMP: 	begin
-			W_Adr = 3'b000;	R_Adr = 3'b000;	S_Adr = 3'b000;
+			W_Adr = 3'b000;	R_Adr = IR[2:0];	S_Adr = 3'b000;
 			adr_sel = 1'b0;	s_sel = 1'b0;
-			pc_ld = 1'b1;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
-			mw_en = 1'b0;		rw_en = 1'b0; 		alu_op = 4'b0000;
+			pc_ld = 1'b1;		pc_inc = 1'b0;		pc_sel = 1'b1;		ir_ld = 1'b0;
+			mw_en = 1'b0;		rw_en = 1'b0; 		alu_op = 4'b0001;
 			status = {ps_N, ps_Z, ps_C, 5'b01111};
 			nextstate = FETCH;
 		end

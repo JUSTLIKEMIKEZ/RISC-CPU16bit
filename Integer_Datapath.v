@@ -16,7 +16,7 @@
 //					 or to rewrite one of the registers in the file.
 //////////////////////////////////////////////////////////////////////////////////
 module Integer_Datapath( clk, reset, W_En, W_Adr, S_Adr, DS, R_Adr,
-								 S_Sel, Alu_Op, Reg_Out, Alu_Out, C, N, Z );
+								 S_Sel, Alu_Op, Reg_Out, Alu_Out, C, N, Z);
 	
 	//input declaration
 	input 		 clk, reset;
@@ -30,6 +30,7 @@ module Integer_Datapath( clk, reset, W_En, W_Adr, S_Adr, DS, R_Adr,
 	output [15:0] Reg_Out;
 	output [15:0] Alu_Out;
 	output 		  C, N, Z;
+	
 	
 	
 	//internal wire decleration

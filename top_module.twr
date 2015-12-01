@@ -37,8 +37,8 @@ Setup/Hold to clock clk
             |Max Setup to|  Process   |Max Hold to |  Process   |                  | Clock  |
 Source      | clk (edge) |   Corner   | clk (edge) |   Corner   |Internal Clock(s) | Phase  |
 ------------+------------+------------+------------+------------+------------------+--------+
-dump_mem    |    1.629(R)|      SLOW  |    0.841(R)|      SLOW  |clk_BUFGP         |   0.000|
-reset       |    0.532(R)|      FAST  |    1.452(R)|      SLOW  |clk_BUFGP         |   0.000|
+dump_mem    |    1.703(R)|      SLOW  |    0.991(R)|      SLOW  |clk_BUFGP         |   0.000|
+reset       |    1.290(R)|      FAST  |    0.074(R)|      SLOW  |clk_BUFGP         |   0.000|
 ------------+------------+------------+------------+------------+------------------+--------+
 
 Clock clk to Pad
@@ -46,13 +46,13 @@ Clock clk to Pad
             |Max (slowest) clk|  Process   |Min (fastest) clk|  Process   |                  | Clock  |
 Destination |  (edge) to PAD  |   Corner   |  (edge) to PAD  |   Corner   |Internal Clock(s) | Phase  |
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
-seg<0>      |        18.425(R)|      SLOW  |         5.228(R)|      FAST  |clk_BUFGP         |   0.000|
-seg<1>      |        19.444(R)|      SLOW  |         5.383(R)|      FAST  |clk_BUFGP         |   0.000|
-seg<2>      |        19.054(R)|      SLOW  |         5.240(R)|      FAST  |clk_BUFGP         |   0.000|
-seg<3>      |        18.769(R)|      SLOW  |         5.574(R)|      FAST  |clk_BUFGP         |   0.000|
-seg<4>      |        18.134(R)|      SLOW  |         5.419(R)|      FAST  |clk_BUFGP         |   0.000|
-seg<5>      |        19.217(R)|      SLOW  |         5.684(R)|      FAST  |clk_BUFGP         |   0.000|
-seg<6>      |        19.808(R)|      SLOW  |         5.556(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<0>      |        17.958(R)|      SLOW  |         5.323(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<1>      |        18.283(R)|      SLOW  |         5.399(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<2>      |        18.215(R)|      SLOW  |         5.457(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<3>      |        18.804(R)|      SLOW  |         5.536(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<4>      |        18.798(R)|      SLOW  |         5.444(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<5>      |        18.808(R)|      SLOW  |         5.515(R)|      FAST  |clk_BUFGP         |   0.000|
+seg<6>      |        18.987(R)|      SLOW  |         5.721(R)|      FAST  |clk_BUFGP         |   0.000|
 ------------+-----------------+------------+-----------------+------------+------------------+--------+
 
 Clock to Setup on destination clock clk
@@ -60,24 +60,24 @@ Clock to Setup on destination clock clk
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-clk            |    8.189|         |         |         |
+clk            |    8.766|         |         |         |
 ---------------+---------+---------+---------+---------+
 
 Pad to Pad
 ---------------+---------------+---------+
 Source Pad     |Destination Pad|  Delay  |
 ---------------+---------------+---------+
-dump_mem       |seg<0>         |   14.059|
-dump_mem       |seg<1>         |   14.619|
-dump_mem       |seg<2>         |   14.054|
-dump_mem       |seg<3>         |   14.624|
-dump_mem       |seg<4>         |   13.768|
-dump_mem       |seg<5>         |   14.851|
-dump_mem       |seg<6>         |   14.808|
+dump_mem       |seg<0>         |   13.784|
+dump_mem       |seg<1>         |   13.948|
+dump_mem       |seg<2>         |   13.981|
+dump_mem       |seg<3>         |   14.630|
+dump_mem       |seg<4>         |   14.624|
+dump_mem       |seg<5>         |   14.634|
+dump_mem       |seg<6>         |   14.652|
 ---------------+---------------+---------+
 
 
-Analysis completed Mon Nov 30 21:48:19 2015 
+Analysis completed Tue Dec 01 15:26:30 2015 
 --------------------------------------------------------------------------------
 
 Trace Settings:

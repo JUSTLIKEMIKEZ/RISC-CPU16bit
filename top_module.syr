@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.11 secs
  
 --> Reading design: top_module.prj
 
@@ -182,39 +182,47 @@ Elaborating module <Program_Counter>.
 Elaborating module <Instruction_Reg>.
 
 Elaborating module <CU>.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 111: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 121: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 123: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 145: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 149: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 155: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 159: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 164: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 168: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 173: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 177: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 182: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 186: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 191: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 195: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 200: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 204: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 209: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 213: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 218: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 113: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 123: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 125: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 147: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 151: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 152: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 158: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 162: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 163: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 168: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 172: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 173: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 178: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 182: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 187: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 191: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 192: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 197: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 201: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 202: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 207: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 211: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 212: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 217: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 221: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 222: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 227: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 231: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 236: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 240: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 247: Signal <ps_Z> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 245: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 249: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 256: Signal <ps_Z> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 258: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 265: Signal <ps_C> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 265: Signal <ps_Z> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 267: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 274: Signal <ps_C> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 276: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 281: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 285: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 294: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 
 Elaborating module <Mem_DumpCounter>.
 
@@ -284,7 +292,7 @@ Unit <RISC_Processor> synthesized.
 
 Synthesizing Unit <CPU_EU>.
     Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CPU_EU.v".
-    Found 16-bit adder for signal <pc_in> created at line 112.
+    Found 16-bit adder for signal <pc_in> created at line 115.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred   2 Multiplexer(s).
@@ -344,10 +352,8 @@ Unit <reg16> synthesized.
 
 Synthesizing Unit <dec_3to8>.
     Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\dec_3to8.v".
-WARNING:Xst:647 - Input <en> is never used. This port will be preserved and left unconnected if it belongs to a top-level block or it belongs to a sub-block and the hierarchy of this sub-block is preserved.
-    Found 8x8-bit Read Only RAM for signal <y>
     Summary:
-	inferred   1 RAM(s).
+	inferred   1 Multiplexer(s).
 Unit <dec_3to8> synthesized.
 
 Synthesizing Unit <alu>.
@@ -406,7 +412,7 @@ Synthesizing Unit <CU>.
     Found 1-bit register for signal <ps_C>.
     Found 1-bit register for signal <ps_Z>.
     Found 1-bit register for signal <ps_N>.
-    Found 32x15-bit Read Only RAM for signal <_n0193>
+    Found 32x17-bit Read Only RAM for signal <_n0201>
 WARNING:Xst:737 - Found 1-bit latch for signal <W_Adr<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <W_Adr<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <W_Adr<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -424,6 +430,7 @@ WARNING:Xst:737 - Found 1-bit latch for signal <pc_sel>. Latches may be generate
 WARNING:Xst:737 - Found 1-bit latch for signal <ir_ld>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <mw_en>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <rw_en>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <alu_op<3>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <alu_op<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <alu_op<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <alu_op<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
@@ -440,17 +447,20 @@ WARNING:Xst:737 - Found 1-bit latch for signal <nextstate<3>>. Latches may be ge
 WARNING:Xst:737 - Found 1-bit latch for signal <nextstate<2>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <nextstate<1>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
 WARNING:Xst:737 - Found 1-bit latch for signal <nextstate<0>>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ns_C>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ns_Z>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
+WARNING:Xst:737 - Found 1-bit latch for signal <ns_N>. Latches may be generated from incomplete case or if statements. We do not recommend the use of latches in FPGA/CPLD designs, as they may lead to timing problems.
     Summary:
 	inferred   1 RAM(s).
 	inferred   8 D-type flip-flop(s).
-	inferred  33 Latch(s).
-	inferred  33 Multiplexer(s).
+	inferred  37 Latch(s).
+	inferred  39 Multiplexer(s).
 Unit <CU> synthesized.
 
 Synthesizing Unit <Mem_DumpCounter>.
     Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\Mem_DumpCounter.v".
     Found 16-bit register for signal <mem_counter>.
-    Found 16-bit adder for signal <mem_counter[15]_GND_81_o_add_1_OUT> created at line 32.
+    Found 16-bit adder for signal <mem_counter[15]_GND_84_o_add_1_OUT> created at line 32.
     Summary:
 	inferred   1 Adder/Subtractor(s).
 	inferred  16 D-type flip-flop(s).
@@ -506,10 +516,9 @@ Unit <hex_to_7seg> synthesized.
 HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 5
+# RAMs                                                 : 2
  16x7-bit single-port Read Only RAM                    : 1
- 32x15-bit single-port Read Only RAM                   : 1
- 8x8-bit single-port Read Only RAM                     : 3
+ 32x17-bit single-port Read Only RAM                   : 1
 # Adders/Subtractors                                   : 11
  16-bit adder                                          : 3
  17-bit adder                                          : 2
@@ -520,18 +529,18 @@ Macro Statistics
  16-bit register                                       : 11
  32-bit register                                       : 3
  5-bit register                                        : 1
-# Latches                                              : 33
- 1-bit latch                                           : 33
+# Latches                                              : 37
+ 1-bit latch                                           : 37
 # Comparators                                          : 3
  32-bit comparator greater                             : 3
-# Multiplexers                                         : 53
- 1-bit 2-to-1 multiplexer                              : 42
+# Multiplexers                                         : 62
+ 1-bit 2-to-1 multiplexer                              : 48
  16-bit 15-to-1 multiplexer                            : 1
  16-bit 2-to-1 multiplexer                             : 4
  32-bit 2-to-1 multiplexer                             : 3
  4-bit 8-to-1 multiplexer                              : 1
  5-bit 2-to-1 multiplexer                              : 1
- 8-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 4
 # Tristates                                            : 256
  1-bit tristate buffer                                 : 256
 # FSMs                                                 : 1
@@ -546,15 +555,15 @@ Macro Statistics
 
 Reading core <ipcore_dir/ram.ngc>.
 Loading core <ram> for timing and area information for instance <ram256x16>.
-WARNING:Xst:1710 - FF/Latch <pc_sel> (without init value) has a constant value of 0 in block <control_unit>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <alu_op_3> (without init value) has a constant value of 0 in block <control_unit>. This FF/Latch will be trimmed during the optimization process.
 
 Synthesizing (advanced) Unit <CU>.
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0193> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
+INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram__n0201> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
     -----------------------------------------------------------------------
     | ram_type           | Distributed                         |          |
     -----------------------------------------------------------------------
     | Port A                                                              |
-    |     aspect ratio   | 32-word x 15-bit                    |          |
+    |     aspect ratio   | 32-word x 17-bit                    |          |
     |     weA            | connected to signal <GND>           | high     |
     |     addrA          | connected to signal <state>         |          |
     |     diA            | connected to signal <GND>           |          |
@@ -569,20 +578,6 @@ Unit <Mem_DumpCounter> synthesized (advanced).
 Synthesizing (advanced) Unit <Program_Counter>.
 The following registers are absorbed into counter <pc_out>: 1 register on signal <pc_out>.
 Unit <Program_Counter> synthesized (advanced).
-
-Synthesizing (advanced) Unit <dec_3to8>.
-INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_y> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
-    -----------------------------------------------------------------------
-    | ram_type           | Distributed                         |          |
-    -----------------------------------------------------------------------
-    | Port A                                                              |
-    |     aspect ratio   | 8-word x 8-bit                      |          |
-    |     weA            | connected to signal <GND>           | high     |
-    |     addrA          | connected to signal <in>            |          |
-    |     diA            | connected to signal <GND>           |          |
-    |     doA            | connected to signal <y>             |          |
-    -----------------------------------------------------------------------
-Unit <dec_3to8> synthesized (advanced).
 
 Synthesizing (advanced) Unit <hex_to_7seg>.
 INFO:Xst:3218 - HDL ADVISOR - The RAM <Mram_hex_out> will be implemented on LUTs either because you have described an asynchronous read or because of currently unsupported block RAM features. If you have described an asynchronous read, making it synchronous would allow you to take advantage of available block RAM resources, for optimized device usage and improved timings. Please refer to your documentation for coding guidelines.
@@ -602,10 +597,9 @@ Unit <hex_to_7seg> synthesized (advanced).
 Advanced HDL Synthesis Report
 
 Macro Statistics
-# RAMs                                                 : 5
+# RAMs                                                 : 2
  16x7-bit single-port distributed Read Only RAM        : 1
- 32x15-bit single-port distributed Read Only RAM       : 1
- 8x8-bit single-port distributed Read Only RAM         : 3
+ 32x17-bit single-port distributed Read Only RAM       : 1
 # Adders/Subtractors                                   : 9
  16-bit adder                                          : 1
  17-bit adder                                          : 2
@@ -617,14 +611,14 @@ Macro Statistics
  Flip-Flops                                            : 271
 # Comparators                                          : 3
  32-bit comparator greater                             : 3
-# Multiplexers                                         : 52
- 1-bit 2-to-1 multiplexer                              : 42
+# Multiplexers                                         : 61
+ 1-bit 2-to-1 multiplexer                              : 48
  16-bit 15-to-1 multiplexer                            : 1
  16-bit 2-to-1 multiplexer                             : 3
  32-bit 2-to-1 multiplexer                             : 3
  4-bit 8-to-1 multiplexer                              : 1
  5-bit 2-to-1 multiplexer                              : 1
- 8-bit 2-to-1 multiplexer                              : 1
+ 8-bit 2-to-1 multiplexer                              : 4
 # FSMs                                                 : 1
 # Xors                                                 : 1
  16-bit xor2                                           : 1
@@ -634,7 +628,7 @@ Macro Statistics
 =========================================================================
 *                         Low Level Synthesis                           *
 =========================================================================
-WARNING:Xst:1710 - FF/Latch <pc_sel> (without init value) has a constant value of 0 in block <CU>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1710 - FF/Latch <alu_op_3> (without init value) has a constant value of 0 in block <CU>. This FF/Latch will be trimmed during the optimization process.
 Analyzing FSM <MFsm> for best encoding.
 Optimizing FSM <FSM_0> on signal <PS[1:8]> with one-hot encoding.
 -------------------
@@ -678,7 +672,6 @@ Optimizing unit <register_file> ...
 Optimizing unit <alu> ...
 
 Optimizing unit <CU> ...
-WARNING:Xst:2677 - Node <RISC/control_unit/rw_en> of sequential type is unconnected in block <top_module>.
 WARNING:Xst:1710 - FF/Latch <db1/clk_div/i_23> (without init value) has a constant value of 0 in block <top_module>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <db1/clk_div/i_22> (without init value) has a constant value of 0 in block <top_module>. This FF/Latch will be trimmed during the optimization process.
 WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <db1/clk_div/i_21> (without init value) has a constant value of 0 in block <top_module>. This FF/Latch will be trimmed during the optimization process.
@@ -777,24 +770,24 @@ Top Level Output File Name         : top_module.ngc
 
 Primitive and Black Box Usage:
 ------------------------------
-# BELS                             : 624
+# BELS                             : 638
 #      GND                         : 2
 #      INV                         : 11
 #      LUT1                        : 23
 #      LUT2                        : 31
-#      LUT3                        : 22
-#      LUT4                        : 3
-#      LUT5                        : 82
+#      LUT3                        : 13
+#      LUT4                        : 25
+#      LUT5                        : 94
 #      LUT6                        : 199
 #      MUXCY                       : 108
-#      MUXF7                       : 33
+#      MUXF7                       : 22
 #      VCC                         : 2
 #      XORCY                       : 108
-# FlipFlops/Latches                : 245
+# FlipFlops/Latches                : 250
 #      FDC                         : 61
 #      FDCE                        : 152
 #      FDP                         : 1
-#      LD                          : 31
+#      LD                          : 36
 # RAMS                             : 1
 #      RAMB18E1                    : 1
 # Clock Buffers                    : 4
@@ -811,16 +804,16 @@ Selected Device : 7a100tcsg324-1
 
 
 Slice Logic Utilization: 
- Number of Slice Registers:             237  out of  126800     0%  
- Number of Slice LUTs:                  371  out of  63400     0%  
-    Number used as Logic:               371  out of  63400     0%  
+ Number of Slice Registers:             242  out of  126800     0%  
+ Number of Slice LUTs:                  396  out of  63400     0%  
+    Number used as Logic:               396  out of  63400     0%  
 
 Slice Logic Distribution: 
- Number of LUT Flip Flop pairs used:    481
-   Number with an unused Flip Flop:     244  out of    481    50%  
-   Number with an unused LUT:           110  out of    481    22%  
-   Number of fully used LUT-FF pairs:   127  out of    481    26%  
-   Number of unique control sets:        15
+ Number of LUT Flip Flop pairs used:    504
+   Number with an unused Flip Flop:     262  out of    504    51%  
+   Number with an unused LUT:           108  out of    504    21%  
+   Number of fully used LUT-FF pairs:   134  out of    504    26%  
+   Number of unique control sets:        16
 
 IO Utilization: 
  Number of IOs:                          28
@@ -857,9 +850,10 @@ clk                                                                | BUFGP      
 db0/clk_div/clk_out                                                | BUFG                                    | 28    |
 step_mem_d(db1/db/D_out:O)                                         | NONE(*)(mem_d/mem_counter_0)            | 8     |
 step_clk_d(db0/db/D_out:O)                                         | BUFG(*)(RISC/execution_unit/PC/pc_out_0)| 160   |
-RISC/control_unit/Mram__n019314(RISC/control_unit/Mram__n0193141:O)| BUFG(*)(RISC/control_unit/pc_ld)        | 31    |
+RISC/control_unit/Mram__n020116(RISC/control_unit/Mram__n0201161:O)| BUFG(*)(RISC/control_unit/pc_ld)        | 33    |
+RISC/control_unit/Mram__n0201(RISC/control_unit/Mram__n020111:O)   | NONE(*)(RISC/control_unit/ns_N)         | 3     |
 -------------------------------------------------------------------+-----------------------------------------+-------+
-(*) These 3 clock signal(s) are generated by combinatorial logic,
+(*) These 4 clock signal(s) are generated by combinatorial logic,
 and XST is not able to identify which are the primary clock signals.
 Please use the CLOCK_SIGNAL constraint to specify the clock signal(s) generated by combinatorial logic.
 INFO:Xst:2169 - HDL ADVISOR - Some clock signals were not automatically buffered by XST with BUFG/BUFR resources. Please use the buffer_type constraint in order to insert these buffers to the clock signals to help prevent skew problems.
@@ -872,9 +866,9 @@ Timing Summary:
 ---------------
 Speed Grade: -1
 
-   Minimum period: 6.899ns (Maximum Frequency: 144.938MHz)
+   Minimum period: 6.893ns (Maximum Frequency: 145.064MHz)
    Minimum input arrival time before clock: 2.069ns
-   Maximum output required time after clock: 6.153ns
+   Maximum output required time after clock: 6.203ns
    Maximum combinational path delay: 4.167ns
 
 Timing Details:
@@ -883,10 +877,10 @@ All values displayed in nanoseconds (ns)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'clk'
-  Clock period: 6.899ns (frequency: 144.938MHz)
+  Clock period: 6.893ns (frequency: 145.064MHz)
   Total number of paths / destination ports: 5424 / 34
 -------------------------------------------------------------------------
-Delay:               6.899ns (Levels of Logic = 20)
+Delay:               6.893ns (Levels of Logic = 20)
   Source:            mem256x16/ram256x16/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
   Destination:       mem256x16/ram256x16/U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram (RAM)
   Source Clock:      clk rising
@@ -915,13 +909,13 @@ Delay:               6.899ns (Levels of Logic = 20)
      MUXCY:CI->O           1   0.029   0.000  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_4_OUT_cy<13> (RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_4_OUT_cy<13>)
      MUXCY:CI->O           1   0.029   0.000  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_4_OUT_cy<14> (RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_4_OUT_cy<14>)
      XORCY:CI->O           2   0.510   0.782  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_4_OUT_xor<15> (RISC/execution_unit/ID/arithmatic_logic/GND_43_o_GND_43_o_sub_4_OUT<15>)
-     LUT6:I2->O            1   0.124   0.000  RISC/execution_unit/ID/arithmatic_logic/Alu_Op<3>61_G (N56)
-     MUXF7:I1->O          10   0.368   0.458  RISC/execution_unit/ID/arithmatic_logic/Alu_Op<3>61 (D_out<15>)
+     LUT6:I2->O            1   0.124   0.000  RISC/execution_unit/ID/arithmatic_logic/Alu_Op<3>61_G (N82)
+     MUXF7:I1->O           9   0.368   0.452  RISC/execution_unit/ID/arithmatic_logic/Alu_Op<3>61 (D_out<15>)
      begin scope: 'mem256x16/ram256x16:dina<15>'
      RAMB18E1:DIBDI11          0.737          U0/xst_blk_mem_generator/gnativebmg.native_blk_mem_gen/valid.cstr/ramloop[0].ram.r/v6_init.ram/NO_BMM_INFO.SP.WIDE_PRIM18.ram
     ----------------------------------------
-    Total                      6.899ns (5.198ns logic, 1.701ns route)
-                                       (75.3% logic, 24.7% route)
+    Total                      6.893ns (5.198ns logic, 1.695ns route)
+                                       (75.4% logic, 24.6% route)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'db0/clk_div/clk_out'
@@ -976,36 +970,38 @@ Delay:               2.217ns (Levels of Logic = 9)
 
 =========================================================================
 Timing constraint: Default period analysis for Clock 'step_clk_d'
-  Clock period: 6.161ns (frequency: 162.305MHz)
-  Total number of paths / destination ports: 82928 / 139
+  Clock period: 6.194ns (frequency: 161.440MHz)
+  Total number of paths / destination ports: 80416 / 136
 -------------------------------------------------------------------------
-Delay:               6.161ns (Levels of Logic = 12)
-  Source:            RISC/execution_unit/ID/Reg_file/reg16_3/Dout_0 (FF)
-  Destination:       RISC/control_unit/ps_Z (FF)
+Delay:               6.194ns (Levels of Logic = 14)
+  Source:            RISC/execution_unit/ID/Reg_file/reg16_6/Dout_0 (FF)
+  Destination:       RISC/execution_unit/PC/pc_out_7 (FF)
   Source Clock:      step_clk_d rising
   Destination Clock: step_clk_d rising
 
-  Data Path: RISC/execution_unit/ID/Reg_file/reg16_3/Dout_0 to RISC/control_unit/ps_Z
+  Data Path: RISC/execution_unit/ID/Reg_file/reg16_6/Dout_0 to RISC/execution_unit/PC/pc_out_7
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.478   0.782  RISC/execution_unit/ID/Reg_file/reg16_3/Dout_0 (RISC/execution_unit/ID/Reg_file/reg16_3/Dout_0)
-     LUT6:I2->O            5   0.124   0.743  RISC/execution_unit/ID/Mmux_S11 (RISC/execution_unit/ID/Mmux_S1)
-     LUT5:I2->O            1   0.124   0.000  RISC/execution_unit/ID/Mmux_S134 (RISC/execution_unit/ID/Mmux_S132)
-     MUXCY:S->O            1   0.472   0.000  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<0> (RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<0>)
-     MUXCY:CI->O           1   0.029   0.000  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<1> (RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<1>)
-     MUXCY:CI->O           1   0.029   0.000  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<2> (RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<2>)
-     MUXCY:CI->O           1   0.029   0.000  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<3> (RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<3>)
-     MUXCY:CI->O           1   0.029   0.000  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<4> (RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<4>)
-     MUXCY:CI->O           1   0.029   0.000  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<5> (RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_cy<5>)
-     XORCY:CI->O           2   0.510   0.542  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_2_OUT_xor<6> (RISC/execution_unit/ID/arithmatic_logic/GND_43_o_GND_43_o_sub_2_OUT<6>)
-     LUT6:I4->O            1   0.124   0.919  RISC/execution_unit/ID/arithmatic_logic/Alu_Op<3>_611 (RISC/execution_unit/ID/arithmatic_logic/Alu_Op<3>_611)
-     LUT6:I1->O            1   0.124   0.919  RISC/execution_unit/ID/arithmatic_logic/Z7 (RISC/execution_unit/ID/arithmatic_logic/Z6)
-     LUT6:I1->O            1   0.124   0.000  RISC/execution_unit/ID/arithmatic_logic/Z9 (RISC/Z)
-     FDC:D                     0.030          RISC/control_unit/ps_Z
+     FDCE:C->Q             2   0.478   0.782  RISC/execution_unit/ID/Reg_file/reg16_6/Dout_0 (RISC/execution_unit/ID/Reg_file/reg16_6/Dout_0)
+     LUT6:I2->O            1   0.124   0.000  RISC/execution_unit/ID/Reg_file/R<0>LogicTrst3_G (N68)
+     MUXF7:I1->O           4   0.368   0.959  RISC/execution_unit/ID/Reg_file/R<0>LogicTrst3 (RISC/execution_unit/Reg_Out<0>)
+     LUT6:I0->O            1   0.124   0.000  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_4_OUT_lut<0> (RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_4_OUT_lut<0>)
+     MUXCY:S->O            1   0.472   0.000  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_4_OUT_cy<0> (RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_4_OUT_cy<0>)
+     XORCY:CI->O           1   0.510   0.536  RISC/execution_unit/ID/arithmatic_logic/Msub_GND_43_o_GND_43_o_sub_4_OUT_xor<1> (RISC/execution_unit/ID/arithmatic_logic/GND_43_o_GND_43_o_sub_4_OUT<1>)
+     LUT6:I4->O            3   0.124   0.435  RISC/execution_unit/ID/arithmatic_logic/Alu_Op<3>_712 (RISC/execution_unit/ID/arithmatic_logic/Alu_Op<3>_712)
+     LUT5:I4->O            1   0.124   0.000  RISC/execution_unit/PC/Mcount_pc_out_lut<1> (RISC/execution_unit/PC/Mcount_pc_out_lut<1>)
+     MUXCY:S->O            1   0.472   0.000  RISC/execution_unit/PC/Mcount_pc_out_cy<1> (RISC/execution_unit/PC/Mcount_pc_out_cy<1>)
+     MUXCY:CI->O           1   0.029   0.000  RISC/execution_unit/PC/Mcount_pc_out_cy<2> (RISC/execution_unit/PC/Mcount_pc_out_cy<2>)
+     MUXCY:CI->O           1   0.029   0.000  RISC/execution_unit/PC/Mcount_pc_out_cy<3> (RISC/execution_unit/PC/Mcount_pc_out_cy<3>)
+     MUXCY:CI->O           1   0.029   0.000  RISC/execution_unit/PC/Mcount_pc_out_cy<4> (RISC/execution_unit/PC/Mcount_pc_out_cy<4>)
+     MUXCY:CI->O           1   0.029   0.000  RISC/execution_unit/PC/Mcount_pc_out_cy<5> (RISC/execution_unit/PC/Mcount_pc_out_cy<5>)
+     MUXCY:CI->O           0   0.029   0.000  RISC/execution_unit/PC/Mcount_pc_out_cy<6> (RISC/execution_unit/PC/Mcount_pc_out_cy<6>)
+     XORCY:CI->O           1   0.510   0.000  RISC/execution_unit/PC/Mcount_pc_out_xor<7> (RISC/execution_unit/PC/Mcount_pc_out7)
+     FDCE:D                    0.030          RISC/execution_unit/PC/pc_out_7
     ----------------------------------------
-    Total                      6.161ns (2.256ns logic, 3.905ns route)
-                                       (36.6% logic, 63.4% route)
+    Total                      6.194ns (3.482ns logic, 2.712ns route)
+                                       (56.2% logic, 43.8% route)
 
 =========================================================================
 Timing constraint: Default OFFSET IN BEFORE for Clock 'clk'
@@ -1086,29 +1082,29 @@ Offset:              1.086ns (Levels of Logic = 1)
                                        (45.6% logic, 54.4% route)
 
 =========================================================================
-Timing constraint: Default OFFSET OUT AFTER for Clock 'RISC/control_unit/Mram__n019314'
+Timing constraint: Default OFFSET OUT AFTER for Clock 'RISC/control_unit/Mram__n020116'
   Total number of paths / destination ports: 344 / 15
 -------------------------------------------------------------------------
-Offset:              6.153ns (Levels of Logic = 7)
+Offset:              6.203ns (Levels of Logic = 7)
   Source:            RISC/control_unit/R_Adr_1 (LATCH)
-  Destination:       seg<2> (PAD)
-  Source Clock:      RISC/control_unit/Mram__n019314 falling
+  Destination:       seg<0> (PAD)
+  Source Clock:      RISC/control_unit/Mram__n020116 falling
 
-  Data Path: RISC/control_unit/R_Adr_1 to seg<2>
+  Data Path: RISC/control_unit/R_Adr_1 to seg<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
      LD:G->Q              32   0.625   1.092  RISC/control_unit/R_Adr_1 (RISC/control_unit/R_Adr_1)
-     LUT6:I0->O            1   0.124   0.000  RISC/execution_unit/ID/Reg_file/R<6>LogicTrst3_G (N38)
-     MUXF7:I1->O           5   0.368   0.743  RISC/execution_unit/ID/Reg_file/R<6>LogicTrst3 (RISC/execution_unit/Reg_Out<6>)
-     LUT5:I2->O            3   0.124   0.953  Mmux_madr71 (madr<6>)
-     LUT6:I0->O            5   0.124   0.563  dc/mux/Mmux_Y<2>1 (dc/mux/Mmux_Y<2>)
-     LUT2:I0->O            3   0.124   0.790  dc/mux/Mmux_Y<2>3 (dc/hex_in<2>)
-     LUT6:I2->O            1   0.124   0.399  dc/hex/Mram_hex_out21 (seg_2_OBUF)
-     OBUF:I->O                 0.000          seg_2_OBUF (seg<2>)
+     LUT6:I0->O            1   0.124   0.536  RISC/execution_unit/ID/Reg_file/R<7>LogicTrst2 (RISC/execution_unit/ID/Reg_file/R<7>LogicTrst1)
+     LUT3:I1->O            5   0.124   0.743  RISC/execution_unit/ID/Reg_file/R<7>LogicTrst3 (RISC/execution_unit/Reg_Out<7>)
+     LUT5:I2->O            3   0.124   0.953  Mmux_madr81 (madr<7>)
+     LUT6:I0->O            2   0.124   0.542  dc/mux/Mmux_Y<3>1 (dc/mux/Mmux_Y<3>)
+     LUT2:I0->O            6   0.124   0.569  dc/mux/Mmux_Y<3>3 (dc/hex_in<3>)
+     LUT6:I4->O            1   0.124   0.399  dc/hex/Mram_hex_out12 (seg_0_OBUF)
+     OBUF:I->O                 0.000          seg_0_OBUF (seg<0>)
     ----------------------------------------
-    Total                      6.153ns (1.613ns logic, 4.540ns route)
-                                       (26.2% logic, 73.8% route)
+    Total                      6.203ns (1.369ns logic, 4.834ns route)
+                                       (22.1% logic, 77.9% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'db0/clk_div/clk_out'
@@ -1136,26 +1132,26 @@ Offset:              3.554ns (Levels of Logic = 4)
 Timing constraint: Default OFFSET OUT AFTER for Clock 'step_clk_d'
   Total number of paths / destination ports: 504 / 7
 -------------------------------------------------------------------------
-Offset:              5.696ns (Levels of Logic = 7)
-  Source:            RISC/execution_unit/ID/Reg_file/reg16_6/Dout_6 (FF)
-  Destination:       seg<2> (PAD)
+Offset:              5.746ns (Levels of Logic = 7)
+  Source:            RISC/execution_unit/ID/Reg_file/reg16_2/Dout_7 (FF)
+  Destination:       seg<0> (PAD)
   Source Clock:      step_clk_d rising
 
-  Data Path: RISC/execution_unit/ID/Reg_file/reg16_6/Dout_6 to seg<2>
+  Data Path: RISC/execution_unit/ID/Reg_file/reg16_2/Dout_7 to seg<0>
                                 Gate     Net
     Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
     ----------------------------------------  ------------
-     FDCE:C->Q             2   0.478   0.782  RISC/execution_unit/ID/Reg_file/reg16_6/Dout_6 (RISC/execution_unit/ID/Reg_file/reg16_6/Dout_6)
-     LUT6:I2->O            1   0.124   0.000  RISC/execution_unit/ID/Reg_file/R<6>LogicTrst3_G (N38)
-     MUXF7:I1->O           5   0.368   0.743  RISC/execution_unit/ID/Reg_file/R<6>LogicTrst3 (RISC/execution_unit/Reg_Out<6>)
-     LUT5:I2->O            3   0.124   0.953  Mmux_madr71 (madr<6>)
-     LUT6:I0->O            5   0.124   0.563  dc/mux/Mmux_Y<2>1 (dc/mux/Mmux_Y<2>)
-     LUT2:I0->O            3   0.124   0.790  dc/mux/Mmux_Y<2>3 (dc/hex_in<2>)
-     LUT6:I2->O            1   0.124   0.399  dc/hex/Mram_hex_out21 (seg_2_OBUF)
-     OBUF:I->O                 0.000          seg_2_OBUF (seg<2>)
+     FDCE:C->Q             2   0.478   0.782  RISC/execution_unit/ID/Reg_file/reg16_2/Dout_7 (RISC/execution_unit/ID/Reg_file/reg16_2/Dout_7)
+     LUT6:I2->O            1   0.124   0.536  RISC/execution_unit/ID/Reg_file/R<7>LogicTrst2 (RISC/execution_unit/ID/Reg_file/R<7>LogicTrst1)
+     LUT3:I1->O            5   0.124   0.743  RISC/execution_unit/ID/Reg_file/R<7>LogicTrst3 (RISC/execution_unit/Reg_Out<7>)
+     LUT5:I2->O            3   0.124   0.953  Mmux_madr81 (madr<7>)
+     LUT6:I0->O            2   0.124   0.542  dc/mux/Mmux_Y<3>1 (dc/mux/Mmux_Y<3>)
+     LUT2:I0->O            6   0.124   0.569  dc/mux/Mmux_Y<3>3 (dc/hex_in<3>)
+     LUT6:I4->O            1   0.124   0.399  dc/hex/Mram_hex_out12 (seg_0_OBUF)
+     OBUF:I->O                 0.000          seg_0_OBUF (seg<0>)
     ----------------------------------------
-    Total                      5.696ns (1.466ns logic, 4.230ns route)
-                                       (25.7% logic, 74.3% route)
+    Total                      5.746ns (1.222ns logic, 4.524ns route)
+                                       (21.3% logic, 78.7% route)
 
 =========================================================================
 Timing constraint: Default OFFSET OUT AFTER for Clock 'step_mem_d'
@@ -1230,7 +1226,17 @@ Delay:               4.167ns (Levels of Logic = 6)
 Cross Clock Domains Report:
 --------------------------
 
-Clock to Setup on destination clock RISC/control_unit/Mram__n019314
+Clock to Setup on destination clock RISC/control_unit/Mram__n0201
+-------------------------------+---------+---------+---------+---------+
+                               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+-------------------------------+---------+---------+---------+---------+
+RISC/control_unit/Mram__n020116|         |         |    8.708|         |
+clk                            |         |         |    8.361|         |
+step_clk_d                     |         |         |    8.251|         |
+-------------------------------+---------+---------+---------+---------+
+
+Clock to Setup on destination clock RISC/control_unit/Mram__n020116
 ---------------+---------+---------+---------+---------+
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
@@ -1243,9 +1249,9 @@ Clock to Setup on destination clock clk
                                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -------------------------------+---------+---------+---------+---------+
-RISC/control_unit/Mram__n019314|         |    6.984|         |         |
-clk                            |    6.899|         |         |         |
-step_clk_d                     |    6.527|         |         |         |
+RISC/control_unit/Mram__n020116|         |    7.240|         |         |
+clk                            |    6.893|         |         |         |
+step_clk_d                     |    6.784|         |         |         |
 step_mem_d                     |    2.008|         |         |         |
 -------------------------------+---------+---------+---------+---------+
 
@@ -1262,9 +1268,10 @@ Clock to Setup on destination clock step_clk_d
                                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock                   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 -------------------------------+---------+---------+---------+---------+
-RISC/control_unit/Mram__n019314|         |    6.618|         |         |
-clk                            |    6.949|         |         |         |
-step_clk_d                     |    6.161|         |         |         |
+RISC/control_unit/Mram__n0201  |         |    1.054|         |         |
+RISC/control_unit/Mram__n020116|         |    6.651|         |         |
+clk                            |    6.513|         |         |         |
+step_clk_d                     |    6.194|         |         |         |
 -------------------------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock step_mem_d
@@ -1278,14 +1285,14 @@ step_mem_d     |    2.217|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 19.00 secs
-Total CPU time to Xst completion: 19.09 secs
+Total REAL time to Xst completion: 15.00 secs
+Total CPU time to Xst completion: 14.14 secs
  
 --> 
 
-Total memory usage is 435292 kilobytes
+Total memory usage is 452892 kilobytes
 
 Number of errors   :    0 (   0 filtered)
-Number of warnings :  133 (   0 filtered)
-Number of infos    :   22 (   0 filtered)
+Number of warnings :  143 (   0 filtered)
+Number of infos    :   21 (   0 filtered)
 

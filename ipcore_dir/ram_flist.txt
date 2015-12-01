@@ -1,4 +1,5 @@
 # Output products list for <ram>
+_xmsgs\pn_parser.xmsgs
 ram.asy
 ram.gise
 ram.mif
