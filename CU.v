@@ -47,7 +47,7 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 	//-- ******************************************************************* --//
 	
 	
-	output reg [7:0] status;						//8 LED outputs tCyrus Koronio display current state
+	output reg [7:0] status;						//8 LED outputs display current state
 
 	reg [4:0] state;									//preset state register
 	reg [4:0] nextstate;								//next state register
