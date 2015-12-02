@@ -1,12 +1,12 @@
 Release 14.7 Drc P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-Tue Dec 01 15:26:41 2015
+Tue Dec 01 15:34:49 2015
 
 drc -z top_module.ncd top_module.pcf
 
 WARNING:PhysDesignRules:372 - Gated clock. Clock net
-   RISC/control_unit/Mram__n0200 is sourced by a combinatorial pin. This is not
+   RISC/control_unit/Mram__n0201 is sourced by a combinatorial pin. This is not
    good design practice. Use the CE pin to control the loading of data into the
    flip-flop.
 WARNING:PhysDesignRules:372 - Gated clock. Clock net step_mem_d is sourced by a
