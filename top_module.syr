@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 1.00 secs
-Total CPU time to Xst completion: 0.11 secs
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.13 secs
  
 --> Reading design: top_module.prj
 
@@ -1241,7 +1241,7 @@ Clock to Setup on destination clock RISC/control_unit/Mram__n020116
                | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
 Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
 ---------------+---------+---------+---------+---------+
-step_clk_d     |         |         |    2.943|         |
+step_clk_d     |         |         |    3.298|         |
 ---------------+---------+---------+---------+---------+
 
 Clock to Setup on destination clock clk
@@ -1285,8 +1285,8 @@ step_mem_d     |    2.217|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 15.00 secs
-Total CPU time to Xst completion: 14.14 secs
+Total REAL time to Xst completion: 13.00 secs
+Total CPU time to Xst completion: 13.75 secs
  
 --> 
 

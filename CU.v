@@ -224,7 +224,7 @@ module CU(clk, reset, IR, N, Z, C, 			//control unit inputs
 		end
 		
 		LD: 	begin
-			W_Adr = IR[8:6];	R_Adr = IR[8:6];	S_Adr = 3'b000;
+			W_Adr = IR[8:6];	R_Adr = IR[2:0];	S_Adr = 3'b000;
 			adr_sel = 1'b1;	s_sel = 1'b1;
 			pc_ld = 1'b0;		pc_inc = 1'b0;		pc_sel = 1'b0;		ir_ld = 1'b0;
 			mw_en = 1'b0;		rw_en = 1'b1; 		alu_op = 4'b0000;
