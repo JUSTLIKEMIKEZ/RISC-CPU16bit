@@ -1,27 +1,25 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    11:56:15 11/29/2015 
-// Design Name: 
-// Module Name:    Mem_DumpCounter 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+// File Name:   Mem_DumpCounter.v
+// Project:     Lab 8
 //
-// Dependencies: 
+// Designer:    Steven Le
+//					 Michael Handria
 //
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
+// Email:       lesteven224@yahoo.com 
+//					 michaelhandria@gmail.com
 //
+// Date:11/28 - Created the memory dump counter.
+//
+// Purpose:     16-bit counter used to view the contents of memory by being sent 
+//					 into a multiplexer for the memeory address.
 //////////////////////////////////////////////////////////////////////////////////
 module Mem_DumpCounter(clk, reset, mem_counter);
 	
+	//input declarations
 	input 				clk, reset;
 	
+	//output declarations
 	output reg [15:0] mem_counter;
 	
 	

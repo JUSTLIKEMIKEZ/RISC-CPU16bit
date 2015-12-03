@@ -3,14 +3,14 @@ Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 --> Parameter TMPDIR set to xst/projnav.tmp
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Parameter xsthdpdir set to xst
 
 
-Total REAL time to Xst completion: 0.00 secs
-Total CPU time to Xst completion: 0.13 secs
+Total REAL time to Xst completion: 1.00 secs
+Total CPU time to Xst completion: 0.09 secs
  
 --> Reading design: top_module.prj
 
@@ -108,47 +108,47 @@ Cores Search Directories           : {"ipcore_dir"  }
 =========================================================================
 *                          HDL Parsing                                  *
 =========================================================================
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\reg16.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\reg16.v" into library work
 Parsing module <reg16>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\dec_3to8.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\dec_3to8.v" into library work
 Parsing module <dec_3to8>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\register_file.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\register_file.v" into library work
 Parsing module <register_file>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\alu.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\alu.v" into library work
 Parsing module <alu>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\Program_Counter.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\Program_Counter.v" into library work
 Parsing module <Program_Counter>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\Integer_Datapath.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\Integer_Datapath.v" into library work
 Parsing module <Integer_Datapath>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\Instruction_Reg.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\Instruction_Reg.v" into library work
 Parsing module <Instruction_Reg>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\mux_8x1.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\mux_8x1.v" into library work
 Parsing module <mux_8x1>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\led_controller.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\led_controller.v" into library work
 Parsing module <led_controller>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\ipcore_dir\ram.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\ipcore_dir\ram.v" into library work
 Parsing module <ram>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\hex_to_7seg.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\hex_to_7seg.v" into library work
 Parsing module <hex_to_7seg>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\debounce (3).v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\debounce (3).v" into library work
 Parsing module <debounce>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" into library work
 Parsing module <CU>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CPU_EU.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CPU_EU.v" into library work
 Parsing module <CPU_EU>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\clk_500Hz.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\clk_500Hz.v" into library work
 Parsing module <clk_500Hz>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\RISC_Processor.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\RISC_Processor.v" into library work
 Parsing module <RISC_Processor>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\ram.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\ram.v" into library work
 Parsing module <ram_md>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\Mem_DumpCounter.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\Mem_DumpCounter.v" into library work
 Parsing module <Mem_DumpCounter>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\display_controller.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\display_controller.v" into library work
 Parsing module <display_controller>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\debounce_md.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\debounce_md.v" into library work
 Parsing module <debounce_md>.
-Analyzing Verilog file "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\top_module.v" into library work
+Analyzing Verilog file "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\top_module.v" into library work
 Parsing module <top_module>.
 
 =========================================================================
@@ -182,54 +182,54 @@ Elaborating module <Program_Counter>.
 Elaborating module <Instruction_Reg>.
 
 Elaborating module <CU>.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 113: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 123: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 125: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 147: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 151: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 152: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 158: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 162: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 163: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 168: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 172: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 173: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 178: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 182: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 187: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 191: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 192: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 197: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 201: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 202: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 207: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 211: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 212: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 217: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 221: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 222: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 227: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 231: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 236: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 240: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 245: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 249: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 256: Signal <ps_Z> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 258: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 265: Signal <ps_Z> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 267: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 274: Signal <ps_C> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 276: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 281: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 285: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
-WARNING:HDLCompiler:91 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 294: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 113: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 123: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 125: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 147: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 151: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 152: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 158: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 162: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 163: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 168: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 172: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 173: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 178: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 182: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 187: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 191: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 192: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 197: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 201: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 202: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 207: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 211: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 212: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 217: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 221: Signal <N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 222: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 227: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 231: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 236: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 240: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 245: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 249: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 256: Signal <ps_Z> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 258: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 265: Signal <ps_Z> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 267: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 274: Signal <ps_C> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 276: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 281: Signal <IR> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 285: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
+WARNING:HDLCompiler:91 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v" Line 294: Signal <ps_N> missing in the sensitivity list is added for synthesis purposes. HDL and post-synthesis simulations may differ as a result.
 
 Elaborating module <Mem_DumpCounter>.
 
 Elaborating module <ram_md>.
 
 Elaborating module <ram>.
-WARNING:HDLCompiler:1499 - "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\ipcore_dir\ram.v" Line 39: Empty module <ram> remains a black box.
+WARNING:HDLCompiler:1499 - "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\ipcore_dir\ram.v" Line 39: Empty module <ram> remains a black box.
 
 Elaborating module <display_controller>.
 
@@ -244,19 +244,19 @@ Elaborating module <hex_to_7seg>.
 =========================================================================
 
 Synthesizing Unit <top_module>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\top_module.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\top_module.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <top_module> synthesized.
 
 Synthesizing Unit <debounce_md>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\debounce_md.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\debounce_md.v".
     Summary:
 	no macro.
 Unit <debounce_md> synthesized.
 
 Synthesizing Unit <clk_500Hz>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\clk_500Hz.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\clk_500Hz.v".
     Found 32-bit register for signal <i>.
     Found 1-bit register for signal <clk_out>.
     Found 32-bit adder for signal <i[31]_GND_3_o_add_1_OUT> created at line 38.
@@ -269,7 +269,7 @@ Synthesizing Unit <clk_500Hz>.
 Unit <clk_500Hz> synthesized.
 
 Synthesizing Unit <debounce>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\debounce (3).v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\debounce (3).v".
     Found 1-bit register for signal <q1>.
     Found 1-bit register for signal <q2>.
     Found 1-bit register for signal <q3>.
@@ -285,13 +285,13 @@ Synthesizing Unit <debounce>.
 Unit <debounce> synthesized.
 
 Synthesizing Unit <RISC_Processor>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\RISC_Processor.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\RISC_Processor.v".
     Summary:
 	no macro.
 Unit <RISC_Processor> synthesized.
 
 Synthesizing Unit <CPU_EU>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CPU_EU.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CPU_EU.v".
     Found 16-bit adder for signal <pc_in> created at line 115.
     Summary:
 	inferred   1 Adder/Subtractor(s).
@@ -299,19 +299,19 @@ Synthesizing Unit <CPU_EU>.
 Unit <CPU_EU> synthesized.
 
 Synthesizing Unit <Integer_Datapath>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\Integer_Datapath.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\Integer_Datapath.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <Integer_Datapath> synthesized.
 
 Synthesizing Unit <register_file>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\register_file.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\register_file.v".
     Summary:
 	no macro.
 Unit <register_file> synthesized.
 
 Synthesizing Unit <reg16>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\reg16.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\reg16.v".
     Found 16-bit register for signal <Dout>.
     Found 1-bit tristate buffer for signal <DA<15>> created at line 42
     Found 1-bit tristate buffer for signal <DA<14>> created at line 42
@@ -351,13 +351,13 @@ Synthesizing Unit <reg16>.
 Unit <reg16> synthesized.
 
 Synthesizing Unit <dec_3to8>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\dec_3to8.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\dec_3to8.v".
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <dec_3to8> synthesized.
 
 Synthesizing Unit <alu>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\alu.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\alu.v".
     Found 17-bit subtractor for signal <GND_43_o_GND_43_o_sub_2_OUT> created at line 31.
     Found 17-bit subtractor for signal <GND_43_o_GND_43_o_sub_4_OUT> created at line 33.
     Found 17-bit adder for signal <n0033> created at line 30.
@@ -370,7 +370,7 @@ Synthesizing Unit <alu>.
 Unit <alu> synthesized.
 
 Synthesizing Unit <Program_Counter>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\Program_Counter.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\Program_Counter.v".
     Found 16-bit register for signal <pc_out>.
     Found 16-bit adder for signal <pc_out[15]_GND_44_o_add_1_OUT> created at line 32.
     Summary:
@@ -380,14 +380,14 @@ Synthesizing Unit <Program_Counter>.
 Unit <Program_Counter> synthesized.
 
 Synthesizing Unit <Instruction_Reg>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\Instruction_Reg.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\Instruction_Reg.v".
     Found 16-bit register for signal <IR_out>.
     Summary:
 	inferred  16 D-type flip-flop(s).
 Unit <Instruction_Reg> synthesized.
 
 Synthesizing Unit <CU>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\CU.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\CU.v".
         RESET = 0
         FETCH = 1
         DECODE = 2
@@ -458,7 +458,7 @@ WARNING:Xst:737 - Found 1-bit latch for signal <ns_N>. Latches may be generated 
 Unit <CU> synthesized.
 
 Synthesizing Unit <Mem_DumpCounter>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\Mem_DumpCounter.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\Mem_DumpCounter.v".
     Found 16-bit register for signal <mem_counter>.
     Found 16-bit adder for signal <mem_counter[15]_GND_84_o_add_1_OUT> created at line 32.
     Summary:
@@ -467,26 +467,26 @@ Synthesizing Unit <Mem_DumpCounter>.
 Unit <Mem_DumpCounter> synthesized.
 
 Synthesizing Unit <ram_md>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\ram.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\ram.v".
     Summary:
 	no macro.
 Unit <ram_md> synthesized.
 
 Synthesizing Unit <display_controller>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\display_controller.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\display_controller.v".
     Summary:
 	no macro.
 Unit <display_controller> synthesized.
 
 Synthesizing Unit <mux_8x1>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\mux_8x1.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\mux_8x1.v".
     Found 4-bit 8-to-1 multiplexer for signal <Y> created at line 35.
     Summary:
 	inferred   1 Multiplexer(s).
 Unit <mux_8x1> synthesized.
 
 Synthesizing Unit <led_controller>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\led_controller.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\led_controller.v".
     Found 3-bit register for signal <PS>.
     Found finite state machine <FSM_0> for signal <PS>.
     -----------------------------------------------------------------------
@@ -506,7 +506,7 @@ Synthesizing Unit <led_controller>.
 Unit <led_controller> synthesized.
 
 Synthesizing Unit <hex_to_7seg>.
-    Related source file is "\\mac\home\Documents\GitHub Files\RISC-CPU16bit\hex_to_7seg.v".
+    Related source file is "\\mac\allfiles\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\hex_to_7seg.v".
     Found 16x7-bit Read Only RAM for signal <hex_out>
     Summary:
 	inferred   1 RAM(s).
@@ -1285,12 +1285,12 @@ step_mem_d     |    2.217|         |         |         |
 =========================================================================
 
 
-Total REAL time to Xst completion: 13.00 secs
-Total CPU time to Xst completion: 13.75 secs
+Total REAL time to Xst completion: 14.00 secs
+Total CPU time to Xst completion: 14.03 secs
  
 --> 
 
-Total memory usage is 452892 kilobytes
+Total memory usage is 438172 kilobytes
 
 Number of errors   :    0 (   0 filtered)
 Number of warnings :  143 (   0 filtered)

@@ -1,22 +1,19 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
-// Company: 
-// Engineer: 
-// 
-// Create Date:    18:27:11 11/28/2015 
-// Design Name: 
-// Module Name:    RISC_Processor 
-// Project Name: 
-// Target Devices: 
-// Tool versions: 
-// Description: 
+// File Name:   RISC_Processor.v
+// Project:     Lab 8
 //
-// Dependencies: 
+// Designer:    Steven Le
+//					 Michael Handria
 //
-// Revision: 
-// Revision 0.01 - File Created
-// Additional Comments: 
+// Email:       lesteven224@yahoo.com 
+//					 michaelhandria@gmail.com
 //
+// Date:11/30 - Created the processor by adding a control unit to function with 
+//					 an execution unit.
+//
+// Purpose:     16-bit RISC Processor that takes instructions from memory with the
+//					 control unit and executes them in the execution unit.
 //////////////////////////////////////////////////////////////////////////////////
 module RISC_Processor(clk, reset, Address, D_out, D_in, mw_en, status /*Reg_Out*/ );
 	

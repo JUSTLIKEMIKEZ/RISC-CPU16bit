@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // File Name:   display_controller.v
-// Project:     Lab 7
+// Project:     Lab 8
 //
 // Designer:    Steven Le
 //					 Michael Handria

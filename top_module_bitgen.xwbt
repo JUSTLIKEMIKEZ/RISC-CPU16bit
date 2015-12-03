@@ -1,8 +1,8 @@
 INTSTYLE=ise
-INFILE=Y:\Documents\GitHub Files\RISC-CPU16bit\top_module.ncd
-OUTFILE=Y:\Documents\GitHub Files\RISC-CPU16bit\top_module.bit
+INFILE=Z:\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\top_module.ncd
+OUTFILE=Z:\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit\top_module.bit
 FAMILY=Artix7
 PART=xc7a100t-1csg324
-WORKINGDIR=Y:\Documents\GitHub Files\RISC-CPU16bit
+WORKINGDIR=Z:\Users\michaelhandria\Documents\GitHub Files\RISC-CPU16bit
 LICENSE=WebPack
 USER_INFO=210946827_0_0_131

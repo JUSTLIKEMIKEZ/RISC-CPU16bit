@@ -1,7 +1,7 @@
 Release 14.7 par P.20131013 (nt64)
 Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
 
-JUSTLIKEMIKEZ::  Tue Dec 01 16:51:15 2015
+JUSTLIKEMIKEZ::  Wed Dec 02 15:48:22 2015
 
 par -w -intstyle ise -ol high -mt off top_module_map.ncd top_module.ncd
 top_module.pcf 
@@ -118,9 +118,9 @@ Phase  1  : 2493 unrouted;      REAL time: 13 secs
 
 Phase  2  : 2244 unrouted;      REAL time: 14 secs 
 
-Phase  3  : 1050 unrouted;      REAL time: 15 secs 
+Phase  3  : 1050 unrouted;      REAL time: 14 secs 
 
-Phase  4  : 1050 unrouted; (Par is working to improve performance)     REAL time: 19 secs 
+Phase  4  : 1050 unrouted; (Par is working to improve performance)     REAL time: 18 secs 
 
 Updating file: top_module.ncd with current fully routed design.
 

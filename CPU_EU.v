@@ -1,7 +1,7 @@
 `timescale 1ns / 1ps
 //////////////////////////////////////////////////////////////////////////////////
 // File Name:   CPU_EU.v
-// Project:     Lab 7
+// Project:     Lab 8
 //
 // Designer:    Steven Le
 //					 Michael Handria
@@ -12,6 +12,8 @@
 // Date:11/12 - Created the CPU execution unit module by connecting the integer
 //					 datapath with a program counter, an instruction register and a
 //					 address multiplexer.
+//		  11/30 - Modified the module to work with a control unit rather than having
+//					 the controls internal to only this module.
 //
 // Purpose:     Execution unit of a CPU that runs instructions based on the values
 //					 that go into the instruction register.
